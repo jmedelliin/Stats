@@ -9,7 +9,7 @@ const columns = [
     field: 'age',
     headerName: 'Age',
     type: 'number',
-    width: 90,
+    width: 900,
   },
   {
     field: 'fullName',
@@ -36,7 +36,7 @@ const rows = [
 
 export default function TablaJugadores() {
   return (
-    <div style={{ height: 400, width: '100%' }}>
+    <div style={{ height: 900, width: '100vw' }}>
       <DataGrid
         rows={rows}
         columns={columns}
